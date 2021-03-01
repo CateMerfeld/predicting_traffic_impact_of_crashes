@@ -20,4 +20,4 @@ For this particular problem, accuracy was not the metric I was interested in. I 
 ### Continuing Work:
 In the interest of dimensionality reduction, I did not include location information in this model. The existing information such as state and county don't have much explanatory power and grossly expand the size of the dataset when turned into dummy variables. Incorporating location specific information such as population or miles of road per capita could be a work around. Another interesting option is creating region based models for areas with similar weather or road conditions.
 
-Although this model could help predict traffic impacts, it is still a reactive measure once a crash has occured. This dataset provides enough time, location and environmental information that it could potentially be used to predict crashes before they happen. 
+Although this model could help predict traffic impacts, it is still a reactive measure once a crash has occured. This dataset provides enough time, location and environmental information that it could potentially be used to predict crashes before they happen
